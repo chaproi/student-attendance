@@ -83,7 +83,7 @@ export default function ManageStudentsPage() {
   return (
     <main className="min-h-screen bg-slate-950 text-white p-6 md:p-10">
       <div className="max-w-5xl mx-auto space-y-6">
-        <Link href="/index" className="inline-flex items-center gap-2 text-slate-300 hover:text-white">
+        <Link href="/dashboard" className="inline-flex items-center gap-2 text-slate-300 hover:text-white">
           <ArrowLeft className="w-4 h-4" />
           กลับไป Dashboard
         </Link>

@@ -14,7 +14,7 @@ export default function LoginPage() {
     setError('');
 
     if (username === 'admin' && password === '1234') {
-      router.push('/index');
+      router.push('/dashboard');
     } else {
       setError('ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง');
     }
